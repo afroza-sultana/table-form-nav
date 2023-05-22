@@ -7,6 +7,35 @@
     <title>form.html</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">about</a></li>
+        </nav>
+    </header>
+    <form action="">
+        <p>Name: <input type="text" name="Name" placeholder="Enter your name"></p>
+        <p>Email: <input type="text" name="Email" placeholder="Enter your Email"></p>
+        <fieldset>
+            <legend>Select your pitha</legend>
+            <label for="chitoi">
+                <input type="radio" name="pitha" id="chitoi">chitoi
+            </label>
+            <label for="vapa"> <input type="radio" name="pitha" id="vapa">vapa</label>
+        </fieldset>
+        <fieldset>
+            <legend>select vorta</legend>
+            <label for="vorta">
+                <input type="checkbox" name="vorta" id="sorisa">sorisa
+                <input type="checkbox" name="vorta" id="sutki">sutki
+                <input type="checkbox" name="vorta" id="bugun">bugun
+            </label>
+        </fieldset>
+        <p>text</p>
+        <textarea name="textinst" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
 </body>
 </html>

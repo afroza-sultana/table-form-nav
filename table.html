@@ -5,8 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+     <header>
+        <nav>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="table.html">about</a></li>
+        </nav>
+    </header>
 </head>
+<style>
+    table{
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 300px;
+    }
+  table,th ,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+    background-color: bisque;
+    font-size: 30px;
+}
+td{
+    background-color: beige;
+    font-size: 20px;
+}
+</style>
 <body>
-    
+   <table>
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Bill</td>
+            <td>Microsoft</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve</td>
+            <td>Apple</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Google</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Zucku</td>
+            <td>facebook</td>
+            <td>$1300</td>
+        </tr>
+    </tbody>
+   </table>
 </body>
 </html>
